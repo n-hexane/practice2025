@@ -1,0 +1,26 @@
+baseURL = 'https://example.org/'
+languageCode = 'ru-ru'
+title = 'Разработка и создание РЭА'
+theme = 'papermod'
+
+[menu]
+
+  [[menu.main]]
+  name = "О проекте"
+  url = "/about/"
+  weight = 1
+
+  [[menu.main]]
+  name = "Участники"
+  url = "/creators/"
+  weight = 2
+
+  [[menu.main]]
+  name = "Журнал"
+  url = "/journal/"
+  weight = 3
+
+  [[menu.main]]
+  name = "Ресурсы"
+  url = "/resources/"
+  weight = 4
