@@ -9,22 +9,18 @@
     <lastBuildDate>Wed, 23 Apr 2025 15:38:25 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Post3</title>
-      <link>http://localhost:1313/journal/post3/</link>
+      <title>Карьерный марафон</title>
+      <link>http://localhost:1313/journal/marafon/</link>
       <pubDate>Wed, 23 Apr 2025 15:38:25 +0300</pubDate>
-      <guid>http://localhost:1313/journal/post3/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;Пост 3.&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <guid>http://localhost:1313/journal/marafon/</guid>
+      <description>&lt;p&gt;Мы поучаствовали в таком событии, как &lt;a href=&#34;https://mospolycareermarafon.ru/&#34;&gt;карьерный марафон&lt;/a&gt;. 22 апреля мы посетили выставку компаний-партнеров, которая проводилась в корпусе &amp;ldquo;На Большой Семеновской&amp;rdquo;. Наша команда посетила множество павильонов компаний-партнеров, мы послушали рассказы о компаниях, нам рассказали: чем они занимаются, о стажировках и практике, которые проводятся в этих компаниях. Люди, представлявшие компании-партнеры на выставке были очень дружелюбными и было очень интересно слушать их, также мы поучаствовали в конкурсах и повыигрывалипризов. Это было очень интересено. Данное событие было очень интересным и познавательным, думаю, что через год мы еще раз посетим карьерный марафон, всем советуем!&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Post2</title>
-      <link>http://localhost:1313/journal/post2/</link>
+      <title>Создание прототипа прошивки для STM32</title>
+      <link>http://localhost:1313/journal/stm32/</link>
       <pubDate>Wed, 23 Apr 2025 15:38:23 +0300</pubDate>
-      <guid>http://localhost:1313/journal/post2/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;Пост 2&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <guid>http://localhost:1313/journal/stm32/</guid>
+      <description>&lt;p&gt;Для того чтобы осуществить обмен данными между Raspberry PI и Arduino, которые связаны с макетом и отвечают за какие-либо события, мы используем STM32. Для того, чтобы осуществить желаемое мы должны написать код прошивки. Так вот, для создания прошивки мы используем STM32CubeIDE. Недавно мы написали первый прототип кода прошивки, который осуществляет обмен данными по протоколу I2C. Но в нашем деле мы должны писать неа только код прошивки, но и правильно спроектировать примерную физическую топологию. Для того, чтобы это сделать мы используем Proteus. В Proteus мы создаем топологию и проверяем как вообще работает наша схема, а также правильно ли работает функционал микроконтроллеров. Пока что оставляю здесь все, что мы сделали на данный момент. Прототип кода прошивки можете посмотреть на нашем &lt;a href=&#34;https://github.com/Miraelll/for-STM32&#34; title=&#34;Перейти в репозиторий с кодом прошивки&#34;&gt;репозиторие&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Экскурсия в FabLab</title>
