@@ -24,3 +24,6 @@ theme = 'papermod'
   name = "Ресурсы"
   url = "/resources/"
   weight = 4
+
+[params]
+  mainSections = ["none"]  # указываем несуществующий раздел

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Блог on Разработка и создание РЭА</title>
+    <link>http://localhost:1313/journal/</link>
+    <description>Recent content in Блог on Разработка и создание РЭА</description>
+    <generator>Hugo -- 0.146.7</generator>
+    <language>ru-ru</language>
+    <lastBuildDate>Wed, 23 Apr 2025 15:38:25 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/journal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Post3</title>
+      <link>http://localhost:1313/journal/post3/</link>
+      <pubDate>Wed, 23 Apr 2025 15:38:25 +0300</pubDate>
+      <guid>http://localhost:1313/journal/post3/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Пост 3.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Post2</title>
+      <link>http://localhost:1313/journal/post2/</link>
+      <pubDate>Wed, 23 Apr 2025 15:38:23 +0300</pubDate>
+      <guid>http://localhost:1313/journal/post2/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Пост 2&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Экскурсия в FabLab</title>
+      <link>http://localhost:1313/journal/excursion/</link>
+      <pubDate>Mon, 07 Apr 2025 15:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/journal/excursion/</guid>
+      <description>&lt;p&gt;Чтобы воплотить наш макет в реальность, нам нужны «производственные мощности». Говоря проще, нам нужно где-то разместить наш огромный проект, вырезать для него детали, напечатать модельки на 3D-принтере и так далее. В этом вопросе нам помог Фаблаб — главная лаборатория Центра проектной деятельности. Экскурсию для нас провел Иван Сергеевич Петухов, сам начальник ЦПД. Нам показали различные станки, лазерный резак, несколько 3D-принтеров и верстак, за которым, возможно, будут собираться части нашего макета. Огромное спасибо за такую увлекательную экскурсию!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
