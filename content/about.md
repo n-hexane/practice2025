@@ -44,18 +44,5 @@ date: 2025-04-23
 
 ## Фотогалерея
 
-<table style="border: none;">
-  <tr>
-    <td style="text-align: left; border: none;">
-      <img src="/images/about_project1.jpg" alt="Фото 1" style="max-width: 100%; height: auto; max-height: 300px;">
-    </td>
-    <td style="text-align: right; border: none;">
-      <img src="/images/about_project2.jpg" alt="Фото 2" style="max-width: 100%; height: auto; max-height: 300px;">
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" style="text-align: center; border: none;">
-      <img src="/images/about_project3.jpg" alt="Фото 3" style="max-width: 100%; height: auto; max-height: 300px;">
-    </td>
-  </tr>
-</table>
+<img src="/images/about_project1.jpg" alt="Фото 1" style="max-height: 300px;">
+
