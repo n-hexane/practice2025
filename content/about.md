@@ -1,3 +1,8 @@
+---
+title: "Проект Киберполигон"
+date: 2025-04-23
+---
+
 # О Проекте
 
 Проект **«Киберполигон»** реализуется командой студентов Московского Политеха и направлен на создание **масштабируемого макета**, имитирующего реальные сценарии **кибербезопасности** и **управления инфраструктурой**. Этот макет включает в себя физические модели (здания, железная дорога) и комплексную систему управления на базе микроконтроллеров и одноплатных компьютеров.
@@ -37,8 +42,40 @@
 
 ## Фотогалерея
 
-<div style="display: flex; overflow-x: auto; gap: 10px;">
-  <img src="/images/about_project1.jpg" alt="Фото 1" style="max-height: 300px; object-fit: cover; width: auto;">
-  <img src="/images/about_project2.jpg" alt="Фото 2" style="max-height: 300px; object-fit: cover; width: auto;">
-  <img src="/images/about_project3.jpg" alt="Фото 3" style="max-height: 300px; object-fit: cover; width: auto;">
+<!-- Swiper -->
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <img src="/images/about_project1.jpg" alt="Фото 1" style="max-height: 300px; object-fit: cover; width: auto;">
+    </div>
+    <div class="swiper-slide">
+      <img src="/images/about_project2.jpg" alt="Фото 2" style="max-height: 300px; object-fit: cover; width: auto;">
+    </div>
+    <div class="swiper-slide">
+      <img src="/images/about_project3.jpg" alt="Фото 3" style="max-height: 300px; object-fit: cover; width: auto;">
+    </div>
+  </div>
+
+  <!-- Кнопки навигации -->
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
 </div>
+
+<!-- Подключение стилей Swiper -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+<!-- Подключение скрипта Swiper -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Инициализация Swiper -->
+<script>
+  var swiper = new Swiper('.swiper-container', {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+</script>
+
