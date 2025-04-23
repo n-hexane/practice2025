@@ -32,6 +32,14 @@
 &lt;p&gt;Система состоит из нескольких ключевых компонентов:&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Тест фото</title>
+      <link>http://localhost:1313/test/</link>
+      <pubDate>Wed, 23 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/test/</guid>
+      <description>&lt;h2 id=&#34;проверка-изображения&#34;&gt;Проверка изображения&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&#34;Тестовая картинка&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/about_project1.jpg&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Создание прототипа прошивки для STM32</title>
       <link>http://localhost:1313/journal/stm32/</link>
       <pubDate>Fri, 18 Apr 2025 15:38:23 +0300</pubDate>
