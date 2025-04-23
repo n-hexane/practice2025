@@ -42,42 +42,10 @@ date: 2025-04-23
 
 ## Фотогалерея
 
-<!-- Swiper -->
-<div class="swiper-container">
-  <div class="swiper-wrapper">
-    <div class="swiper-slide">
-      <img src="/images/about_project1.jpg" alt="Фото 1" style="max-height: 300px; object-fit: cover; width: auto;">
-    </div>
-    <div class="swiper-slide">
-      <img src="/images/about_project2.jpg" alt="Фото 2" style="max-height: 300px; object-fit: cover; width: auto;">
-    </div>
-    <div class="swiper-slide">
-      <img src="/images/about_project3.jpg" alt="Фото 3" style="max-height: 300px; object-fit: cover; width: auto;">
-    </div>
-  </div>
-
-  <!-- Кнопки навигации -->
-  <div class="swiper-button-next"></div>
-  <div class="swiper-button-prev"></div>
+<!-- Используем простой слайдер без JS, просто отображение изображений -->
+<div style="display: flex; gap: 10px; overflow-x: auto;">
+  <img src="/images/about_project1.jpg" alt="Фото 1" style="max-height: 300px; object-fit: cover; width: auto;">
+  <img src="/images/about_project2.jpg" alt="Фото 2" style="max-height: 300px; object-fit: cover; width: auto;">
+  <img src="/images/about_project3.jpg" alt="Фото 3" style="max-height: 300px; object-fit: cover; width: auto;">
 </div>
-
-<!-- Подключение стилей Swiper -->
-<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-
-<!-- Подключение скрипта Swiper -->
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-<!-- Инициализация Swiper после загрузки страницы -->
-<script>
-  window.onload = function() {
-    var swiper = new Swiper('.swiper-container', {
-      slidesPerView: 1,
-      spaceBetween: 10,
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-    });
-  };
-</script>
 
