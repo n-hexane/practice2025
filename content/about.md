@@ -67,15 +67,17 @@ date: 2025-04-23
 <!-- Подключение скрипта Swiper -->
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-<!-- Инициализация Swiper -->
+<!-- Инициализация Swiper после загрузки страницы -->
 <script>
-  var swiper = new Swiper('.swiper-container', {
-    slidesPerView: 1,
-    spaceBetween: 10,
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  });
+  window.onload = function() {
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  };
 </script>
 

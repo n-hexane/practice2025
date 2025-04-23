@@ -11,13 +11,14 @@
     <loc>http://localhost:1313/journal/marafon/</loc>
     <lastmod>2025-04-23T15:38:25+03:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/about/</loc>
+    <lastmod>2025-04-23T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/journal/stm32/</loc>
     <lastmod>2025-04-18T15:38:23+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/journal/excursion/</loc>
     <lastmod>2025-04-07T15:00:00+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/about/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
