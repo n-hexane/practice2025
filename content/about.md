@@ -42,7 +42,4 @@ date: 2025-04-23
 
 ## Фотогалерея
 
-## Фотогалерея
-
-<img src="/images/about_project1.jpg" alt="Фото 1" style="max-height: 300px;">
-
+![Фото1](/images/about_project1.jpg)
