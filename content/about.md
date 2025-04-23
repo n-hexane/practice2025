@@ -43,3 +43,5 @@ date: 2025-04-23
 ## Фотогалерея
 
 ![Фото1](/images/about_project1.jpg)
+![Фото2](/images/about_project2.jpg)
+![Фото3](/images/about_project3.jpg)
